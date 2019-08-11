@@ -1,6 +1,5 @@
 # Dependencies
-node_modueles/
-node_modules/
+node_modules
 
 # logs
 *.log
