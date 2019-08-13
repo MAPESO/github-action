@@ -22,15 +22,3 @@ jobs:
 
   deploy_now:
     runs-on: ubuntu-latest
-    steps:
-        - uses: actions/checkout@master
-        - name: deploy
-          uses: actions/zeit-now@master
-          env:
-            ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-        - name: alias
-        - uses: actions/zeit-now@master
-          env:
-            ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-          with:
-            args: alias
