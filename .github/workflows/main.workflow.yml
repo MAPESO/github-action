@@ -20,9 +20,9 @@ jobs:
         npm run build --if-present
         npm test
 
-      deploy:
-        runs-on: ubuntu-latest
-        steps:
+  deploy_now:
+    runs-on: ubuntu-latest
+    steps:
         - uses: actions/checkout@master
         - name: deploy
           uses: actions/zeit-now@maste
@@ -34,4 +34,3 @@ jobs:
             ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
           with:
             args: alias
-            
