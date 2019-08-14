@@ -8,7 +8,7 @@ module.exports = (req, res) => {
      <ol>
        <li>Build salio bien</li>
        <li>Test salio bien</li>
-       <li>Deploy salio bien</li>
+       <li>Deploy salio biien</li>
      </ol>
   </header>`);
 };
