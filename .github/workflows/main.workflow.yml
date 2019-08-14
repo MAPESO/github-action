@@ -21,6 +21,7 @@ jobs:
         npm test
 
   deploy_now:
+    needs: build
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@master
