@@ -3,7 +3,12 @@ module.exports = (req, res) => {
   res.send(`<heade>
      <h1>Test GitHub Actions</h1>
      <p>
-       Este PR deberia hacer deploy con ▲Now
+      Si vez este PR significa 2 cosas:
      </p>
+     <ol>
+       <li>Build salio bien</li>
+       <li>Test salio bien</li>
+       <li>Deploy salio bien</li>
+     </ol>
   </header>`);
 };
