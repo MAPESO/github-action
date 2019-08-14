@@ -1,3 +1,8 @@
 {
-    "alias": ["test-github.now.sh"]
+    "alias": ["test-github.now.sh"],
+    "github": {
+        "autoAlias": false,
+        "silent": true,
+        "autoJobCancelation": false
+      }
 }
